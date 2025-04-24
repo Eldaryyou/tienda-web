@@ -1,0 +1,145 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --primary: #1e90ff;
+  --primary-dark: #1565c0;
+  --danger: #dc3545;
+  --success: #28a745;
+  --lighr-bg: #f8f9fa;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #2d2d2d;
+}
+h2 {
+  font-family: "Anisette";
+}
+h2,
+h3 {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+section {
+  padding: 15px 0px 15px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: auto;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, var(--primary), #00d4ff);
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow);
+}
+.btn-danger {
+  background: linear-gradient(45deg, var(--danger), #ff5252);
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-danger:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow);
+}
+
+.btn-secondary {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-secondary:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow);
+}
+
+/*camio en modales*/
+.modal-content {
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease-in-out;
+}
+.modal.show .modal-content {
+  transform: scale(1.02);
+}
+/*para alertas y toast*/
+.alert,
+.toast {
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+.logo {
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.2s ease-in;
+}
+.navbar-brand:hover .logo {
+  transform: scale(1.1);
+  transform: rotateZ(-10deg);
+}
+.navbar-brand:active .logo {
+  transform: scale(1.1);
+  transform: rotateZ(-10deg);
+}
+.list-group-item {
+  padding: 15px;
+  border-radius: 10px 10px 20px 0px;
+  transition: background-color 2s;
+}
+.list-group-item:hover {
+  background-color: #0d78e3;
+}
+
+.fas.fa-exclamation-triangle {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+.btn-sm {
+  font-size: 0.875 rem;
+}
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.badge {
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 576px) {
+  .modal-dialog {
+    margin: 10px;
+  }
+  .modal-content {
+    font-size: 0.9rem;
+  }
+  .btn-sm {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+  .list-group-item {
+    padding: 10px;
+  }
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+footer a {
+  transition: color 0.2s ease-in-out;
+}
+footer a:hover {
+  color: #007bff !important;
+}

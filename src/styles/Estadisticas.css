@@ -1,0 +1,105 @@
+/* @import "tailwindcss"; */
+
+.ul_est {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nombres_est {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 100px;
+  gap: 80px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1190px) {
+  .nombres_est {
+    margin-left: 110px;
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .nombres_est {
+    margin-left: 80px;
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nombres_est {
+    margin-left: 80px;
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nombres_est {
+    margin-left: 50px;
+    gap: 55px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .nombres_est {
+    margin-left: 55px;
+    gap: 55px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .nombres_est {
+    margin-left: 80px;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .nombres_est {
+    margin-left: 55px;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 755px) {
+  .nombres_est {
+    margin-left: 20px;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .nombres_est {
+    margin-left: 35px;
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nombres_est {
+    margin-left: 25px;
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .nombres_est {
+    margin-left: 27px;
+    gap: 34px;
+
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nombres_est {
+    margin-left: 25px;
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .nombres_est {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .p {
+    font-size: 12px;
+  }
+}

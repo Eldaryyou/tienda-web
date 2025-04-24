@@ -1,0 +1,66 @@
+.nombres {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 35px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 880px) {
+  .nombres {
+    margin-left: 35px;
+    gap: 75px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .nombres {
+    margin-left: 40px;
+    gap: 75px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nombres {
+    font-size: 14px;
+    margin-left: 40px;
+    gap: 50px;
+  }
+}
+.li_inventario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ul_in {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 780px) {
+  .ul_in {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+.editar_borrar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.editar_borrar button {
+  padding: 3px 5px;
+  border: none;
+  border-radius: 3px;
+  width: 52px;
+  margin: 3px;
+}
+
+.text-decoration-line-through {
+  color: #6c757d;
+}
+
+.fas.fa-exclamation-circle {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}

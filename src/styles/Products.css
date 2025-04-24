@@ -1,0 +1,26 @@
+input,
+.btnn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  color: #fff;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+input:focus {
+  outline: none;
+}
+
+.btnn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btnn:hover {
+  background-color: #218838;
+}

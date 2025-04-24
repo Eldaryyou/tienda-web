@@ -1,0 +1,46 @@
+.li {
+  padding: 10px;
+  border-bottom: 3px solid #ddd;
+}
+
+@media screen and (max-width: 480px) {
+  input,
+  .btnn {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  .li {
+    font-size: 12px;
+  }
+}
+
+.borrar-btn {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+
+  background-color: rgb(139, 79, 68);
+
+  &:hover {
+    background-color: rgb(152, 83, 43);
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-collapse {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3 ease-in-out, opacity 0.3 ease-in-out;
+  }
+  .navbar-collapse.show {
+    max-height: 500px;
+    opacity: 1;
+  }
+}
