@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: 35px;
   font-size: 17px;
+  color: #fff;
+}
+p{
+color: #fff;
 }
 
 @media screen and (max-width: 880px) {

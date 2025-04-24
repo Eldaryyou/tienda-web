@@ -274,10 +274,7 @@ const VentasPage = () => {
               <li className="li d-flex justify-content-center" key={index}>
                 {venta.cantidad}
               </li>
-              <li
-                className="li list-group-item d-flex justify-content-center"
-                key={index}
-              >
+              <li className="li d-flex justify-content-center" key={index}>
                 ${venta.total}
               </li>
               <div className="editar_borrar">

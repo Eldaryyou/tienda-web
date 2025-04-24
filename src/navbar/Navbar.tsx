@@ -75,7 +75,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="shadow-sm navbar navbar-expand-lg navbar-dark bg-light"
+        className="shadow-sm navbar navbar-expand-lg navbar-dark bg-dark"
         ref={navbarRef}
       >
         <div className="container-fluid">

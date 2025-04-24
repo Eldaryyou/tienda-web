@@ -7,6 +7,7 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  color: #fff;
 }
 
 .nombres_est {
@@ -15,6 +16,7 @@
   margin-left: 100px;
   gap: 80px;
   font-size: 20px;
+  color: #fff;
 }
 @media screen and (max-width: 1190px) {
   .nombres_est {

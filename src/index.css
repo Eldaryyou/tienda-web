@@ -27,6 +27,7 @@ h3 {
   text-align: center;
   padding: 5px;
   margin-bottom: 20px;
+  color: #fff;
 }
 section {
   padding: 15px 0px 15px 15px;
@@ -142,4 +143,13 @@ footer a {
 }
 footer a:hover {
   color: #007bff !important;
+}
+input {
+  background-color: #4872a1;
+}
+input::placeholder {
+  color: #fff;
+}
+li {
+  color: #fff;
 }
